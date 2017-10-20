@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title> COMPANY </title>
+ <b class="website-name" style="border-style:dotted dashed; margin-left:20%;display:inline-block;font-size: 37px;font-family:Kaushan Script;">&nbspSSN INSTITUTIONS&nbsp</b>
+
+<style>
+body 
+{
+    border-radius: 4px;
+    background-color:white;
+    padding: 20px;
+    height: 150px;
+    margin-top: 100px; 
+    margin-left: 80px;
+}
+.website-name 
+{
+  color :teal;
+  font-size : 40px;
+  text-shadow: 2.5px 2px green;
+  letter-spacing: 0.1em;
+}
+form 
+{  
+    border-radius:1px;
+    margin: 1% auto;
+    padding: 1%;
+    background-color:tomato;
+    float:left;
+    border-style: dotted double;
+    height: 250px;
+}
+input[type=password]
+{
+    width: 45%;
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-left: 42%; 
+}
+input[type=text],select{
+    width: 45%;
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-left: 42%;
+}
+input[type=reset] 
+{
+    cursor: pointer;
+    margin-left:26%;
+    color: black;
+}
+input[type=submit] {
+    margin-left: 10%;
+    background-color:white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+input[type=submit]:hover {
+    background-color: blue;
+}
+</style>
+</head>
+<body>
+<form>
+<h2 style="color: black;text-decoration: underline;text-align: center;"> COMPANY LOGIN </h2>
+
+<label for="fname"><strong>Username*</strong></label>
+<input type="text" pattern="[a-zA-Z\s]+" name="textname" id="textname" placeholder="Enter the name.." size="45" required>
+
+<label for="fname"><strong>Password*</strong></label>
+<input  type="password" name="pass" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}"  title="at least one number and one uppercase and lowercase letter, and at least 7 characters" size="40" required></td>
+
+  
+<br> <br>
+ <input type="submit" value="SUBMIT">
+  <input type="reset" value="Reset">
+  <a style="margin-left: 5%;" href=http://localhost:80/campus.html>BACK</a>
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
